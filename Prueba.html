@@ -4,23 +4,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mi primera pagina HTML</title>
+    <title>Mi Primera Página HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        .student-block {
+            margin: 1rem 0;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <h1>Pagina Web De Prueba</h1>
-    <!-- BLQOUE PARA ESTUDIANTE N 1 -->
-    <div>
+    <header>
+        <h1>Mi Página Web de Prueba</h1>
+    </header>
 
-    </div>
+    <main>
+        <div class="student-block">
+            <h2>Estudiante N° 1</h2>
+            <p>Contenido para el estudiante 1...</p>
+        </div>
 
-    <!-- BLQOUE PARA ESTUDIANTE N 2 -->
-    <div>
+        <div class="student-block">
+            <h2>Estudiante N° 2</h2>
+            <p>Contenido para el estudiante 2...</p>
+        </div>
 
-    </div>
+        <div class="student-block">
+            <h2>Estudiante N° 3</h2>
+            <p>Contenido para el estudiante 3...</p>
+        </div>
+    </main>
 
-    <!-- BLQOUE PARA ESTUDIANTE N 3 -->
-    <div>
-
-    </div>
+    <footer>
+        <p>&copy; 2023 Mi Página Web. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
